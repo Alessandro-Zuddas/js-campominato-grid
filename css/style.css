@@ -1,3 +1,57 @@
 /*----------
   RESET 
 ----------*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*----------
+  COMMON
+----------*/
+
+body{
+    background-color: #7fffd4;
+}
+
+/*----------
+  HEADER
+----------*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.header-left{
+    margin-right: .9375rem;
+}
+
+.logo{
+    padding: .9375rem .9375rem;
+}
+
+.play-btn{
+    padding: .125rem 1.25rem;
+    border-radius: .3125rem;
+    border-color: grey;
+    cursor: pointer;
+}
+
+/*----------
+  MAIN
+----------*/
+
+/*----------
+  FOOTER
+----------*/
+
