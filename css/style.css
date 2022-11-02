@@ -16,6 +16,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*----------
@@ -42,6 +43,10 @@ header{
     padding: .9375rem .9375rem;
 }
 
+#game-mode{
+    padding-right: 1.25rem;
+}
+
 .play-btn{
     padding: .125rem 1.25rem;
     border-radius: .3125rem;
@@ -62,9 +67,33 @@ main{
 }
 
 .game-table{
+    display: flex;
+    flex-wrap: wrap;
     width: 31.25rem;
     height: 31.25rem;
     background-color: bisque;
+}
+
+.game-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.easy{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.medium{
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.hard{
+    width: calc(100% / 7);
+    height: calc(100% / 7);
 }
 
 /*----------
