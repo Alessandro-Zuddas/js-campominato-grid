@@ -71,7 +71,6 @@ main{
     flex-wrap: wrap;
     width: 31.25rem;
     height: 31.25rem;
-    background-color: bisque;
 }
 
 .game-number{
@@ -94,6 +93,10 @@ main{
 .hard{
     width: calc(100% / 7);
     height: calc(100% / 7);
+}
+
+.clicked{
+    background-color: aqua;
 }
 
 /*----------
